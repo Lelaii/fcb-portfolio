@@ -1,0 +1,58 @@
+/* *  - all universal selector */
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+h1, p{
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+
+/* ID selector */
+#landing{
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile{
+    height: 350px;
+    width: 350px;
+
+    /* border-radius - to add a curvy corner or edge */
+    border-radius: 50%;
+
+    border: 15px solid rgb(27, 5, 117);
+    padding: 15px;
+
+}
+
+body{
+    background-color: #2ABAD7;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%232ABAD7' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2310afd1' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2300a4cb' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23009ac5' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23008fbe' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%230084b7' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23007aaf' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23006fa8' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2300649f' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23005a97' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2300508e' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23004685' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23003b7b' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23003171' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23002767' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23021d5c' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23091351' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230E0746' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer{
+    background-color: #000022;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.fa-globe, .fa-facebook, .fa-x-twitter, .fa-instagram, .fa-tiktok, .fa-youtube{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#ffffff;
+}
+
+.fa-globe:hover , .fa-facebook:hover, .fa-x-twitter:hover, .fa-instagram:hover, .fa-tiktok:hover, .fa-youtube:hover{
+    color:gray;
+}
